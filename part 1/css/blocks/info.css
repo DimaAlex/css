@@ -1,0 +1,14 @@
+.info .info__inner-container {
+    text-align: center;
+}
+
+.info .info__title {
+    margin-bottom: 0;
+    color: #637f83;
+}
+
+.info .info__text {
+    margin-top: 0;
+    color: #637f83;
+    font-size: 18px;
+}

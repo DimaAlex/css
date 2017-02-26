@@ -1,0 +1,13 @@
+.social {
+    background-color: white;
+}
+
+.social .social__icon-container {
+    float: left;
+    margin-top: 3px;
+}
+
+.social .social__content-container {
+    margin-left: 70px;
+    padding-left: 31px;
+}

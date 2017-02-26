@@ -1,7 +1,12 @@
-@import "layout/simplegrid.css";
-@import "layout/header.css";
-@import "blocks/banner.css";
-@import "base/base.css";
 @import "styles.css";
 @import "reset.css";
+@import "utils.css";
+@import "layout/simplegrid.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "base/base.css";
 @import "blocks/menu.css";
+@import "blocks/info.css";
+@import "blocks/social.css";
+@import "blocks/banner.css";
+@import "blocks/featured-content.css";

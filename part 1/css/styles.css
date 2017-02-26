@@ -5,15 +5,16 @@
     text-decoration: none;
 }
 
-.menu .menu__link {
-    display: inline-block;
-    font-size: 13px;
-    line-height: 1em;
-    padding: 35px 23px 32px;
-    text-decoration: none;
-    text-transform: uppercase;
+.text-center {
+    text-align: center;
 }
 
-.state-current {
-    color: orangered;
+.circle-icon {
+    display: table;
+    height: 70px;
+    width: 70px;
+    font-size: 31px;
+    text-align: center;
+    background: url(../images/circle-icon.png);
+    content: url(../images/f.png);
 }

@@ -1,0 +1,27 @@
+.footer .footer__inner-container {
+    background-color: #637f83;
+}
+
+.footer .footer__list {
+    margin: 0;
+    padding: 25px;
+}
+
+.footer .footer__item {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer .footer__item:after {
+    content: '/';
+    color: white;
+}
+
+.footer .footer__item:last-child:after {
+    content: none;
+}
+
+.footer .footer__link {
+    color: white;
+    text-decoration: none;
+}
