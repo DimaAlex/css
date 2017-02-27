@@ -1,13 +1,32 @@
 .social {
+    display: table;
     background-color: white;
+    color: #637f83;
+}
+
+.social__icon-container {
+    display: table-cell;
 }
 
 .social .social__icon-container {
     float: left;
     margin-top: 3px;
+    vertical-align: middle;
 }
 
 .social .social__content-container {
     margin-left: 70px;
     padding-left: 31px;
+}
+
+.social .social_image {
+    vertical-align: middle;
+}
+
+.content__title {
+    margin-bottom: 0;
+}
+
+.content__text {
+    margin-top: 0;
 }

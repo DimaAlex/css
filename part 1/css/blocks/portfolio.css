@@ -1,0 +1,12 @@
+.portfolio {
+    color: #637f83;
+}
+
+.portfolio .portfolio__title {
+    margin-bottom: 0;
+}
+
+.portfolio .portfolio__subtitle {
+    margin-top: 0;
+    font-size: 18px;
+}

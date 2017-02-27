@@ -1,3 +1,32 @@
 .featured-content {
     background-color: #f6f6f6;
+    padding: 40px 170px;
+    /*display: block;*/
+}
+
+.featured-content__item {
+    /*display: table-cell;*/
+}
+
+.featured-content__item .item__title {
+    color: #637f83;
+    margin-bottom: 20px;
+}
+
+.featured-content__item .item__text {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #637f83;
+    font-size: 14px;
+}
+
+.featured-content__item .item__btn {
+    background-color: #637f83;
+    width: 70px;
+    height: 33px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid transparent;
 }
