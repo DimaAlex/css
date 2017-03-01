@@ -36,7 +36,13 @@
         </div>
     </div>
 </header>
-<div class="banner"></div>
+<div class="banner">
+    <div class="banner__content">
+        <h1>Lorem ipsum laro dolore sit amet vivamus</h1>
+        <p>Lorem ipsum laro sit amet</p>
+        <p>Dolore sit ame</p>
+    </div>
+</div>
 <div class="info">
     <div class="info__inner-container">
         <h2 class="info__title">Lorem ipsum dolor sit amet</h2>
@@ -87,13 +93,20 @@
     <div class="portfolio__inner-container text-center">
         <h2 class="portfolio__title">Cras ornare tristique elit</h2>
         <p class="portfolio__subtitle">Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.</p>
-
-        <img src="images/orange.png">
-        <button class="portfolio__btn">View Portfolio</button>
+        <div class="portfolio__controls">
+            <a class="controls__btn-to-left" href="#">
+                <img src="images/to-left.png">
+            </a>
+            <a class="controls__btn-to-right" href="#">
+                <img src="images/to-right.png">
+            </a>
+        </div>
+        <img src="images/orange.png" class="portfolio__image-orange">
     </div>
+    <button class="portfolio__btn">View Portfolio</button>
 </div>
-<div class="rows col-1-1">
-    <div class="rows-inner-container">
+<div class="rows clear-fix">
+    <div class="rows-inner-container col-1-1">
         <div class="rows__item col-1-2">
             <img class="item__photo" src="images/man-1.png">
             <h3 class="item__title">Integer vitae libero</h3>
@@ -124,6 +137,33 @@
             <div class="item__text">
                 Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
                 Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus + more
+            </div>
+        </div>
+    </div>
+</div>
+<div class="subscribe clear-fix">
+    <div class="subscribe__inner-container grid">
+        <div class="row">
+            <div class="subscribe__content-container text-center">
+                <h2 class="subscribe__title">Cras ornare trestique elit</h2>
+                <p class="subscribe__text">Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.</p>
+            </div>
+        </div>
+        <div class="row col-1-1">
+            <div class="subscribe__form col-1-2">
+                <img src="images/message.png" class="form__image">
+                <h4 class="form__title">Subscribe Our Newsletter</h4>
+                <p class="form__text">via email on how to grow your business online</p>
+                <input class="form__input">
+                <button class="form__button">Sign up</button>
+            </div>
+            <div class="subscribe__twitter col-1-2">
+                <img src="images/twitter-bird.png" class="twitter__image">
+                <p class="twitter__text">
+                    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                    Aenean dignissim pellentesque felis  euismod in, pharetra a, ultricies in, diam. Sed arcu.
+                    Cras consequat  @johndoe
+                </p>
             </div>
         </div>
     </div>

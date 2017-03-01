@@ -3,3 +3,10 @@
     background: url(../../images/wallpaperswide.jpg) no-repeat;
     background-size: 100% auto;
 }
+
+.banner .banner__content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}

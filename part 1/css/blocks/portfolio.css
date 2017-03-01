@@ -12,9 +12,11 @@
 }
 
 .portfolio .portfolio__btn {
-    background-color: #e35323;
-    width: 70px;
+    display: table;
+    margin: 10px auto;
+    width: auto;
     height: 33px;
+    background-color: #e35323;
     color: white;
     font-weight: bold;
     font-size: 14px;
