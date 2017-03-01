@@ -1,0 +1,21 @@
+.rows-inner-container {
+    margin: auto 60px;
+    padding-top: 84px;
+    padding-bottom: 10px;
+    height: 300px;
+    color: #637f83;
+}
+
+.rows__item {
+    margin-bottom: 10px;
+}
+
+.rows__item .item__photo {
+    float: left;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.rows__item .item__title {
+    margin-top: 0;
+}
