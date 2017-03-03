@@ -1,5 +1,6 @@
 .menu .menu__item {
     float: left;
+    font-weight: bold;
 }
 
 .menu .menu__link {
@@ -9,6 +10,10 @@
     padding: 35px 23px 32px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.menu .menu__list {
+    margin: 0;
 }
 
 .state-current {

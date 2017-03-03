@@ -1,6 +1,7 @@
 @import "styles.css";
 @import "reset.css";
 @import "utils.css";
+@import "fonts.css";
 @import "layout/simplegrid.css";
 @import "layout/header.css";
 @import "layout/footer.css";

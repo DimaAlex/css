@@ -1,5 +1,7 @@
 .header .header__inner-container {
     display: table;
+    width: 100%;
+    color: #637f83;
 }
 
 .header .header__logo-container {
@@ -9,4 +11,6 @@
 
 .header .header__menu-container {
     display: table-cell;
+    float: right;
+
 }

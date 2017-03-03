@@ -1,12 +1,21 @@
 .banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     height: 520px;
     background: url(../../images/wallpaperswide.jpg) no-repeat;
     background-size: 100% auto;
 }
 
 .banner .banner__content {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     color: white;
+}
+
+.banner .content__title {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.banner .content__subtitle {
+    text-transform: uppercase;
 }
