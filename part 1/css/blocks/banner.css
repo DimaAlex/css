@@ -13,9 +13,13 @@
 
 .banner .content__title {
     margin-top: 0;
+    font-size: 40px;
+    font-family: SourceSansProBold;
+    letter-spacing: 5px;
     text-decoration: underline;
 }
 
 .banner .content__subtitle {
+    letter-spacing: 5px;
     text-transform: uppercase;
 }

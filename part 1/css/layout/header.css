@@ -1,3 +1,7 @@
+.header {
+    margin: auto 50px;
+}
+
 .header .header__inner-container {
     display: table;
     width: 100%;
@@ -13,4 +17,13 @@
     display: table-cell;
     float: right;
 
+}
+
+.header__logo-container .logo {
+    font-family: SourceSansProBold;
+    font-size: 25px;
+    line-height: 1em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #637f83;
 }

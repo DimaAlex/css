@@ -1,5 +1,6 @@
 .rows-inner-container {
-    margin: auto 60px;
+    margin-left: 85px;
+    margin-right: 60px;
     padding-top: 84px;
     padding-bottom: 10px;
     height: 300px;
@@ -18,4 +19,14 @@
 
 .rows__item .item__title {
     margin-top: 0;
+    font-family: SourceSansProBold;
+}
+
+.rows__item .item__text {
+    font-size: 14px;
+    color: #959494;
+}
+
+.rows__item .rows__more {
+    color: #e86c3b;
 }

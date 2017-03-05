@@ -2,46 +2,77 @@
     background-color: #637f83;
 }
 
-.subscribe__content-container {
+.subscribe .subscribe__content-container {
+    padding-bottom: 20px;
     color: white;
     border-bottom-style: solid;
     border-color: #597275;
 }
 
-.subscribe__twitter {
+.subscribe .subscribe__title {
+    font-family: SourceSansProBold;
+}
+
+.subscribe .subscribe__twitter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     background-color: #597275;
     border-radius: 5px;
     color: white;
-    vertical-align: middle;
-    padding: 10px;
 }
 
-.twitter__image {
+.subscribe__twitter .twitter__image {
     float: left;
+    padding: 20px;
 }
 
-.subscribe__form {
+.subscribe__twitter .twitter__text {
+    color: #b5c7c9;
+    font-size: 14px;
+}
+
+.subscribe__twitter .twitter__user {
     color: white;
-    display: table;
+    text-decoration: underline;
 }
 
-.form__image {
+.subscribe .subscribe__form {
+    color: white;
+}
+
+.subscribe .form__title {
+    margin: 0;
+    font-family: SourceSansProBold;
+}
+
+.subscribe .form__text {
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.subscribe .form__image {
     float: left;
     padding-right: 11px;
 }
 
-.form__input {
-    display: table-cell;
+.form__input-container {
+    padding-top: 20px;
+}
+
+.subscribe .form__input {
     padding-right: 11px;
-    width: 100%;
+    width: 75%;
     height: 33px;
     background-color: #597275;
     border: 0;
     border-radius: 4px;
+    color: white;
 }
 
-.form__button {
-    display: table-cell;
+.subscribe .form__button {
+    width: 20%;
+    height: 35px;
     background-color: #597275;
     color: white;
     font-weight: bold;

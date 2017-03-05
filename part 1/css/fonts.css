@@ -1,20 +1,14 @@
 @font-face {
-    font-family: asapRegular;
-    src: url(../fonts/Asap-Regular.ttf);
+    font-family: SourceSansProBold;
+    src: url(../fonts/SourceSansPro-Bold.otf);
 }
 
 @font-face {
-    font-family: PTSans Regular;
-    src: url(../fonts/PTS55F.ttf);
+    font-family: SourceSansPro Light;
+    src: url(../fonts/SourceSansPro-Light.otf);
 }
 
 @font-face {
-    font-family: PTSans Narrow;
-    src: url(../fonts/PTSansNarrowBold.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: Open Sans;
-    src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: SourceSansPro Regular;
+    src: url(../fonts/SourceSansPro-Regular.otf);
 }

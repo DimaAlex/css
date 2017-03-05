@@ -1,21 +1,24 @@
 .menu .menu__item {
     float: left;
-    font-weight: bold;
 }
 
 .menu .menu__link {
     display: inline-block;
+    font-family: "SourceSansProBold";
     font-size: 13px;
     line-height: 1em;
     padding: 35px 23px 32px;
     text-decoration: none;
     text-transform: uppercase;
+    color: #637f83;
 }
 
 .menu .menu__list {
     margin: 0;
 }
 
-.state-current {
+.menu .menu__link_active {
     color: orangered;
+    background: url(../../images/menu-item-active-arrow.png) no-repeat;
+    background-position: 50% 25%;
 }

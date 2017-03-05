@@ -1,19 +1,7 @@
-.logo {
-    font-size: 25px;
-    line-height: 1em;
-    vertical-align: middle;
-    text-decoration: none;
-}
-
 .text-center {
     text-align: center;
 }
 
-.circle-icon {
-    display: table;
-    height: 70px;
-    width: 70px;
-    font-size: 31px;
-    text-align: center;
-    background: url(../images/circle-icon.png) no-repeat;
+.row {
+    margin: 20px auto;
 }

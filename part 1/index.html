@@ -14,7 +14,7 @@
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link state-current" href="#">Home</a>
+                        <a class="menu__link menu__link_active" href="#">Home</a>
                     </li>
                     <li class="menu__item">
                         <a class="menu__link" href="#">About</a>
@@ -42,6 +42,9 @@
         <h1 class="content__title">dolore sit amet vivamus</h1>
         <p class="content__subtitle">Lorem ipsum laro sit amet</p>
         <p class="content__subtitle">Dolore sit ame</p>
+        <a href="#" class="content__link">
+            <img src="images/arrow-down-icon.png">
+        </a>
     </div>
 </div>
 <div class="info">
@@ -107,13 +110,13 @@
     <button class="portfolio__btn">View Portfolio</button>
 </div>
 <div class="rows clear-fix">
-    <div class="rows-inner-container col-1-1">
+    <div class="rows-inner-container">
         <div class="rows__item col-1-2">
             <img class="item__photo" src="images/man-1.png">
             <h3 class="item__title">Integer vitae libero</h3>
             <div class="item__text">
                 Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-                Aliquam erat volutpat. Nam dui mi, tincidunt lorem ipsuk dolor + more
+                Aliquam erat volutpat. Nam dui mi, tincidunt lorem ipsuk dolor <span class="rows__more">+ more</span>
             </div>
         </div>
         <div class="rows__item col-1-2">
@@ -121,7 +124,7 @@
             <h3 class="item__title">Vestibulum commodo</h3>
             <div class="item__text">
                 Lorem dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor + more
+                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor <span class="rows__more">+ more</span>
             </div>
         </div>
         <div class="rows__item col-1-2">
@@ -129,7 +132,8 @@
             <h3 class="item__title">Fusce pellentesque</h3>
             <div class="item__text">
                 Cations t dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus + more
+                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                <span class="rows__more">+ more</span>
             </div>
         </div>
         <div class="rows__item col-1-2">
@@ -137,7 +141,8 @@
             <h3 class="item__title">Donec quis dui dolor</h3>
             <div class="item__text">
                 Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus + more
+                Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                <span class="rows__more">+ more</span>
             </div>
         </div>
     </div>
@@ -155,15 +160,17 @@
                 <img src="images/message.png" class="form__image">
                 <h4 class="form__title">Subscribe Our Newsletter</h4>
                 <p class="form__text">via email on how to grow your business online</p>
-                <input class="form__input">
-                <button class="form__button">Sign up</button>
+                <form class="form__input-container" action="#">
+                    <input class="form__input">
+                    <button class="form__button" type="submit">Sign up</button>
+                </form>
             </div>
             <div class="subscribe__twitter col-1-2">
                 <img src="images/twitter-bird.png" class="twitter__image">
                 <p class="twitter__text">
                     Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
                     Aenean dignissim pellentesque felis  euismod in, pharetra a, ultricies in, diam. Sed arcu.
-                    Cras consequat  @johndoe
+                    Cras consequat  <span class="twitter__user">@johndoe</span>
                 </p>
             </div>
         </div>
@@ -173,9 +180,7 @@
     <ul class="col-1-1">
         <li class="col-1-3">
             <div class="social__icon-container">
-                <i class="social__icon circle-icon">
-                    <img class="social_image" src="images/f.png">
-                </i>
+                <img class="social_icon" src="images/facebook-icon.png">
             </div>
             <div class="social__content-container">
                 <div class="social__content">
@@ -186,9 +191,7 @@
         </li>
         <li class="col-1-3">
             <div class="social__icon-container">
-                <i class="social__icon circle-icon">
-                    <img class="social_image" src="images/g-plus.png">
-                </i>
+                <img class="social_icon" src="images/google-plus-icon.png">
             </div>
             <div class="social__content-container">
                 <div class="social__content">
@@ -199,9 +202,7 @@
         </li>
         <li class="col-1-3">
             <div class="social__icon-container">
-                <i class="social__icon circle-icon">
-                    <img class="social_image" src="images/in.png">
-                </i>
+                <img class="social_icon" src="images/linkedin-icon.png">
             </div>
             <div class="social__content-container">
                 <div class="social__content">

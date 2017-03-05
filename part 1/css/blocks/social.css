@@ -19,14 +19,11 @@
     padding-left: 31px;
 }
 
-.social .social_image {
-    vertical-align: middle;
-}
-
-.content__title {
+.social .content__title {
     margin-bottom: 0;
+    font-family: SourceSansProBold;
 }
 
-.content__text {
+.social .content__text {
     margin-top: 0;
 }

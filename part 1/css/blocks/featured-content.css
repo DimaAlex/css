@@ -9,8 +9,9 @@
 }
 
 .featured-content__item .item__title {
-    color: #637f83;
     margin-bottom: 20px;
+    font-family: SourceSansProBold;
+    color: #637f83;
 }
 
 .featured-content__item .item__text {
