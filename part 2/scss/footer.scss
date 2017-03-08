@@ -1,0 +1,18 @@
+.footer {
+  background-color: $footer_color;
+  box-shadow: 0px -4px 3px black;
+
+  .footer__image {
+    display: inline;
+    width: 3.5%;
+  }
+
+  .footer__text {
+    display: inline-block;
+    font-size: 2.5vw;
+    font-family: "LucidaSans Italic";
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #303030;
+    color: white;
+  }
+}
