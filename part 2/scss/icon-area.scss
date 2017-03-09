@@ -3,11 +3,6 @@
   justify-content: center;
   background: url(../images/icn-area-background.png);
 
-  .icon-area__inner-container {
-    width: 100%;
-    margin: auto 7%;
-  }
-
   .icon-area__item {
     padding: 3% 3%;
     text-align: center;
@@ -15,6 +10,9 @@
 
   .item__text {
     text-transform: uppercase;
+    font-size: 2vw;
+    font-family: "Segoe ui";
+    font-weight: lighter;
   }
 
   .item__image {
@@ -25,8 +23,10 @@
 
 @media screen and (max-width: $mobile_width) {
   .icon-area {
+    justify-content: space-between;
+
     .item__image {
-      height: 30px;
+      height: 45px;
     }
   }
 }
