@@ -4,11 +4,39 @@
   .section2__title {
     font-family: "PTSans Regular";
     color: $section2_title_color;
+    font-size: 3vw;
     text-transform: uppercase;
   }
 
+  .section2__device-images {
+    display: inline-block;
+    float: left;
+  }
+
+  .section2__device-image {
+    padding: 0 0 7% 3%;
+  }
+
   .section2__list {
+    float: left;
     padding: 4.5% 0 0 7%;
     list-style-image: url(../images/ellipse.png);
+  }
+
+  .section2__list-item {
+    font-family: "Open Sans";
+    margin-bottom: 1.5%;
+  }
+}
+
+@media screen and (max-width: $mobile_width) {
+  .section2 {
+    .section2__device-image {
+      width: 5%;
+    }
+
+    .section2__list {
+      display: none;
+    }
   }
 }

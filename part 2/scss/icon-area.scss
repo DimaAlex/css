@@ -1,0 +1,31 @@
+.icon-area {
+  display: flex;
+  justify-content: center;
+  background: url(../images/icn-area-background.png) no-repeat;
+
+  .icon-area__inner-container {
+    width: 100%;
+    margin: auto 7%;
+  }
+
+  .icon-area__item {
+    padding: 3% 3%;
+    text-align: center;
+  }
+
+  .item__text {
+    text-transform: uppercase;
+  }
+
+  .item__image {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: $mobile_width) {
+  .icon-area {
+    .item__image {
+      height: 30px;
+    }
+  }
+}
