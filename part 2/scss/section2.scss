@@ -1,40 +1,56 @@
 .section2 {
   background: url(../images/section2-background.png);
 
+  .section2__inner-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+  }
+
   .section2__title {
+    padding-top: 2%;
     font-family: "PTSans Regular";
     color: $section2_title_color;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
   }
 
   .section2__device-images {
     display: inline-block;
     float: left;
+    padding-right: 2%;
   }
 
-  .section2__device-image {
-    padding: 0 0 7% 3%;
+  .section2__device-image--large {
+    width: 55%;
+    padding: 4% 3% 0 2%;
+  }
+
+  .section2__device-image--medium {
+    width: 20%;
+    padding-right: 3%;
+  }
+
+  .section2__device-image--small {
+    width: 10%;
   }
 
   .section2__list {
-    float: left;
+    display: inline;
     padding: 4.5% 0 0 7%;
     list-style-image: url(../images/ellipse.png);
   }
 
   .section2__list-item {
     font-family: "Open Sans";
-    margin-bottom: 1.5%;
+    font-size: 2vw;
+    color: $section2_list_item_color;
+    margin-bottom: 4%;
   }
 }
 
 @media screen and (max-width: $mobile_width) {
   .section2 {
-    .section2__device-image {
-      width: 5%;
-    }
-
     .section2__list {
       display: none;
     }

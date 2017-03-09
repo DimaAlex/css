@@ -1,8 +1,10 @@
 .section1 {
-  background: url(../images/section1-background.png) no-repeat;
+  background: url(../images/section1-background.png);
 
   .section1__title {
     text-transform: uppercase;
+    font-family: "PTSans Regular";
+    font-size: 2.5vw;
     color: white;
   }
 }

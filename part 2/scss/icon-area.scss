@@ -1,7 +1,7 @@
 .icon-area {
   display: flex;
   justify-content: center;
-  background: url(../images/icn-area-background.png) no-repeat;
+  background: url(../images/icn-area-background.png);
 
   .icon-area__inner-container {
     width: 100%;
@@ -19,6 +19,7 @@
 
   .item__image {
     height: 60px;
+    margin-bottom: 1vw;
   }
 }
 
