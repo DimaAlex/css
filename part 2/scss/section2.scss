@@ -51,6 +51,9 @@
 
 @media screen and (max-width: $mobile_width) {
   .section2 {
+    background: none;
+    background-color: #474747;
+
     .section2__list {
       display: none;
     }
