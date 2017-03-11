@@ -1,0 +1,51 @@
+.tweets {
+  background: url(../images/tweets-background.png) no-repeat;
+  background-size: cover;
+
+  .tweets__inner-container {
+    padding: 4% 0;
+    margin-left: 50%;
+  }
+
+  .tweets__item {
+    padding: 1% 12% 5% 7%;
+    margin-bottom: 3%;
+    background-size: 100% auto;
+    background: url(../images/bubble.png) no-repeat;
+    color: #8f8e8e;
+    font-family: "PTSans Regular";
+  }
+
+  .tweets__item_ligher {
+    opacity: 0.8;
+  }
+
+  .tweets__item_lighest {
+    opacity: 0.6;
+  }
+
+  .tweets__form {
+    display: flex;
+    padding-left: 3%;
+  }
+
+  .tweets__input {
+    width: 60%;
+    height: 28px;
+    color: #8f8e8e;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #d0a806;
+    border-right: none;
+    box-shadow: inset 1px 4px 12px -6px;
+  }
+
+  .tweets__button {
+    background-color: #e8a624;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #d0a806;
+    border-left: none;
+    height: 31px;
+  }
+}
