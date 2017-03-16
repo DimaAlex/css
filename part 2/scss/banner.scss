@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  margin-bottom: 4vw;
+
+  .banner-title {
+    align-self: center;
+    color: white;
+    font-family: "asapRegular";
+    font-size: 6vw;
+    text-transform: uppercase;
+
+  }
+
+  .banner-title_first-str {
+    display: inline-block;
+    margin: 0 auto 2vw;
+    color: #f5c506;
+  }
+
+  .player__image {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $mobile_width) {
+  .banner {
+    margin: 0;
+    padding: 0;
+
+    .player {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
