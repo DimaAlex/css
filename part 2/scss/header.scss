@@ -1,3 +1,10 @@
 .header {
 
 }
+
+@media screen and (max-width: $mobile_width) {
+  .header {
+    background: none;
+    background-color: #595959;
+  }
+}
