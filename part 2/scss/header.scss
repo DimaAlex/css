@@ -1,3 +1,9 @@
+.header {
+  .header__inner-container {
+    padding: 2vw;
+  }
+}
+
 @media screen and (max-width: $mobile_width) {
   .header {
     background: none;
@@ -6,6 +12,7 @@
     .header__inner-container {
       display: flex;
       width: 100%;
+      padding: 0;
     }
   }
 }
