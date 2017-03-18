@@ -1,10 +1,11 @@
-.header {
-
-}
-
 @media screen and (max-width: $mobile_width) {
   .header {
     background: none;
     background-color: #595959;
+
+    .header__inner-container {
+      display: flex;
+      width: 100%;
+    }
   }
 }

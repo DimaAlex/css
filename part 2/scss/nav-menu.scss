@@ -1,3 +1,61 @@
 .nav-menu {
+  margin-top: 1vw;
+  width: 50%;
 
+  .nav-menu__list {
+    display: table;
+    width: 100%;
+    background-color: #f5c506;
+    box-shadow: -0.4vw -0.4vw 0 0 rgba(245, 197, 6, 0.4), -0.8vw -0.8vw 0 0 rgba(245, 197, 6, 0.4);
+  }
+
+  .nav-menu__item {
+    display: table-cell;
+    padding: 0.7vw;
+    text-transform: uppercase;
+    font-family: "asapRegular";
+    border-right: 1px solid #b99403;
+    text-align: center;
+  }
+
+  .nav-menu__item:last-child {
+    border-right: none;
+  }
+
+  .nav-menu__link {
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #b99403;
+    font-size: 1.5vw;
+    text-decoration: none;
+  }
+
+  .nav-menu__img {
+    width: 1.5vw;
+  }
+}
+
+@media screen and (max-width: $mobile_width) {
+  .nav-menu {
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    .nav-menu__list {
+      box-shadow: none;
+    }
+
+    .nav-menu__item {
+      padding: 2vw;
+    }
+
+    .nav-menu__img {
+      width: 3vw;
+    }
+
+    .nav-menu__link {
+      font-size: 3vw;
+    }
+  }
 }
