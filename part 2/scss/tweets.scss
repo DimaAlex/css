@@ -1,19 +1,27 @@
 .tweets {
-  background: url(../images/tweets-background.png) no-repeat;
-  background-size: cover;
+  background-color: #f5c507;
+  background-image: url(../images/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 2vw;
 
   .tweets__inner-container {
     padding: 4% 0;
-    margin-left: 50%;
+    margin-left: 45%;
   }
 
   .tweets__item {
-    padding: 1% 12% 5% 7%;
     margin-bottom: 3%;
     background-size: 100% auto;
     background: url(../images/bubble.png) no-repeat;
+    background-size: 100% auto;
     color: #8f8e8e;
     font-family: "PTSans Regular";
+    font-size: 3vw;
+  }
+
+  .tweets__text {
+    padding: 2% 5% 5% 10%;
   }
 
   .tweets__item_ligher {
